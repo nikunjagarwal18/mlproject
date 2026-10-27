@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-HYPHEN_E_DOT='-e .' # this auto triggers and runs the setup.py file but it should be avoided in setup.py
+HYPHEN_E_DOT='-e .' # this in req.txt-> auto triggers and runs the setup.py file but it should be avoided in setup.py
 
 def get_requirements(file_path:str)->List[str]:
     '''
